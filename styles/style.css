@@ -95,6 +95,7 @@ ol {
   justify-content: flex-start;
   flex-direction: column;
   gap: 5px;
+  border: 0;
 }
 
 .content__details {
@@ -193,7 +194,9 @@ ol {
 }
 
 .more-button {
-  width: 100%;
+  width: 390px;
+  min-height: 34px;
+  flex-shrink: 0;
 }
 
 .search-form__fieldset-title {
@@ -228,15 +231,6 @@ ol {
   display: flex;
   flex-direction: row;
   gap: 15px;
-}
-
-.search-form__fieldset {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 5px;
-  border: 0;
 }
 
 .search-form__label {
@@ -317,12 +311,6 @@ ol {
   width: 194px;
   height: 34px;
   align-self: flex-end;
-}
-
-.more-button {
-  width: 390px;
-  min-height: 34px;
-  flex-shrink: 0;
 }
 
 .button:hover {
