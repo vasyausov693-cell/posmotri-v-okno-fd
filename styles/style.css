@@ -60,7 +60,6 @@ ol {
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
-  height: 534px;
 }
 
 .result {
@@ -163,7 +162,6 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   min-width: 0;
-  height: 103px;
   gap: 6px;
   display: flex;
   align-items: flex-start;
@@ -301,6 +299,7 @@ ol {
 .button {
   border: 1px solid #fff;
   background-color: transparent;
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
@@ -309,7 +308,7 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
+  min-height: 34px;
   align-self: flex-end;
 }
 
